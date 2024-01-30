@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "font-title";
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-text";
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+
+$color1: #bd8d77;
+$color2: #fce6dc;
+$color3: #cfb5a5;
+$color4: #786960;
+
+$font-title: "font-title";
+$font-text: "font-text";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: url("../img/fond.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+h1{
+    font-family: $font-title;
+    color: $color2;
+}
+
+p{
+    font-family: $font-text;
+    font-size: 3vh;
+}
+
+@mixin childCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

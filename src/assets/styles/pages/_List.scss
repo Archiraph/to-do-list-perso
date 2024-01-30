@@ -1,0 +1,70 @@
+#list{
+
+    max-height: 100vh;
+    overflow: hidden;
+
+    
+
+    #titleList{
+        height: 20vh;
+        background-color: $color1;
+        @include childCenter;
+        justify-content: flex-start;
+        
+        h1{
+            width: 20vw;
+            text-align: center;
+            font-size: 7vh;
+            letter-spacing: 3px;
+        }
+    }
+
+    #content-list{
+        height: 80vh;
+        @include childCenter;
+
+        .listBoxes{
+            background-color: $color3;
+            height: 60vh;
+            width: 35vw;
+            margin: auto;
+            transform: rotate(-8deg);
+            @include childCenter;
+            border-radius: 25px;
+
+            
+
+            .cadre1{
+                background-color: $color1;
+                height: 60vh;
+                width: 35vw;
+                transform: rotate(16deg); 
+                @include childCenter;
+                border-radius: 25px;
+
+                .cadre2{
+                background-color: $color2;
+                height: 60vh;
+                width: 35vw;
+                transform: rotate(-8deg); 
+                border-radius: 25px;
+
+                    h1{
+                        color: $color4;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+            #rightContent{
+                transform: rotate(16deg);
+                #cadre1{
+                    transform: rotate(-8deg);
+                    #cadre2{
+                        transform: rotate(-8deg);
+                    }
+                }
+            }
+    }
+}

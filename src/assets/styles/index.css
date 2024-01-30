@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "font-title";
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "font-text";
+  src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/fond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "font-title";
+  color: #fce6dc;
+}
+
+p {
+  font-family: "font-text";
+  font-size: 3vh;
+}
+
+#list {
+  max-height: 100vh;
+  overflow: hidden;
+}
+#list #titleList {
+  height: 20vh;
+  background-color: #bd8d77;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#list #titleList h1 {
+  width: 20vw;
+  text-align: center;
+  font-size: 7vh;
+  letter-spacing: 3px;
+}
+#list #content-list {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#list #content-list .listBoxes {
+  background-color: #cfb5a5;
+  height: 60vh;
+  width: 35vw;
+  margin: auto;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+}
+#list #content-list .listBoxes .cadre1 {
+  background-color: #bd8d77;
+  height: 60vh;
+  width: 35vw;
+  -webkit-transform: rotate(16deg);
+          transform: rotate(16deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+}
+#list #content-list .listBoxes .cadre1 .cadre2 {
+  background-color: #fce6dc;
+  height: 60vh;
+  width: 35vw;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+  border-radius: 25px;
+}
+#list #content-list .listBoxes .cadre1 .cadre2 h1 {
+  color: #786960;
+  text-align: center;
+  margin-top: 10px;
+}
+#list #content-list #rightContent {
+  -webkit-transform: rotate(16deg);
+          transform: rotate(16deg);
+}
+#list #content-list #rightContent #cadre1 {
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+#list #content-list #rightContent #cadre1 #cadre2 {
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+
+#nav {
+  height: 20vh;
+  background-color: #bd8d77;
+}/*# sourceMappingURL=index.css.map */
